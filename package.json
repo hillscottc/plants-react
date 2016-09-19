@@ -12,12 +12,12 @@
     "webpack",
     "node"
   ],
-  "author": "Christian Alfoni",
+  "author": "Scott Hill",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/christianalfoni/webpack-express-boilerplate/issues"
+    "url": "https://github.com/hillscottc/plants-react/issues"
   },
-  "homepage": "https://github.com/christianalfoni/webpack-express-boilerplate",
+  "homepage": "https://github.com/hillscottc/plants-react",
   "scripts": {
     "test": "",
     "start": "node server",
