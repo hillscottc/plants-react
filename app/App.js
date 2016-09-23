@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './App.css';
-import grassImg from './images/grass2.wide.png'
 
 
 export default class App extends React.Component {
@@ -12,7 +11,11 @@ export default class App extends React.Component {
     return (
       <div className={styles.app}>
         <p>hello</p>
-        <img src={grassImg} />
+
+        {/* render nested routes */}
+        {this.props.children}
+
+
       </div>
     );
   }
