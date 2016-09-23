@@ -43,7 +43,8 @@ module.exports = {
       test: /\.css$/,
       loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]'
     }, {
-      test: /\.(jpe?g|png|gif|svg)$/i, loader: "file-loader?name=images/[name].[ext]"
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      loader: "file-loader?name=images/[name].[ext]"
     }]
   }
 };
