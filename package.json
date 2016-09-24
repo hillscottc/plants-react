@@ -21,6 +21,7 @@
   "scripts": {
     "test": "mocha api_routes.test.js",
     "start": "node server",
+    "start:prod": "NODE_ENV=production PORT=3000 npm start",
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --progress --profile --colors",
     "eslint": "eslint .",
     "jscs": "jscs ."
