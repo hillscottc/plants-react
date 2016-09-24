@@ -11,6 +11,12 @@ const isDeveloping = process.env.NODE_ENV !== 'production';
 const port = isDeveloping ? 3000 : process.env.PORT;
 const app = express();
 
+
+// Enable routes with /api prefix
+const api_routes = require('./api_routes');
+app.use('/api', api_routes);
+
+
 if (isDeveloping) {
   const compiler = webpack(config);
   const middleware = webpackMiddleware(compiler, {
@@ -38,6 +44,9 @@ if (isDeveloping) {
     res.sendFile(path.join(__dirname, 'dist/index.html'));
   });
 }
+
+
+
 
 app.listen(port, '0.0.0.0', function onStart(err) {
   if (err) {
