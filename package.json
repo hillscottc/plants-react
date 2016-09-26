@@ -1,16 +1,16 @@
 {
-  "name": "webpack-express-boilerplate",
+  "name": "plants-react",
   "version": "0.1.0",
-  "description": "A boilerplate for running a Webpack workflow in Node express",
+  "description": "React app for USDA plants data",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/christianalfoni/webpack-express-boilerplate.git"
+    "url": "https://github.com/hillscottc/plants-react.git"
   },
   "keywords": [
     "express",
     "webpack",
-    "node"
+    "react"
   ],
   "author": "Scott Hill",
   "license": "MIT",
