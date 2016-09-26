@@ -4,8 +4,8 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import App from './App.js';
 import Home from './components/home/home';
 import About from './components/about/about';
-// import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/css/bootstrap-theme.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 ReactDOM.render((
     <Router history={browserHistory}>
